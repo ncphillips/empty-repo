@@ -12,3 +12,12 @@ fields:
   config: {}
   template: social
   label: Include Social
+- name: references
+  type: blocks
+  label: References
+  template_types:
+  - person
+  - location
+  config:
+    min: 
+    max: 
