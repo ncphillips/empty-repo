@@ -1,4 +1,14 @@
 ---
 label: Post
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: include_social
+  type: include
+  config: {}
+  template: social
+  label: Include Social
