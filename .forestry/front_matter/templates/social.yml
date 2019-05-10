@@ -1,4 +1,14 @@
 ---
 label: Social
 hide_body: true
-fields: []
+fields:
+- name: facebook
+  type: text
+  config:
+    required: false
+  label: Facebook
+- name: twitter
+  type: text
+  config:
+    required: false
+  label: Twitter
