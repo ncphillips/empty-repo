@@ -7,14 +7,5 @@ fields:
   config:
     required: false
   label: Title
-- name: references
-  type: blocks
-  label: References
-  template_types:
-  - person
-  - location
-  config:
-    min: 
-    max: 
 pages:
 - _stuff/hello-world.md
