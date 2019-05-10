@@ -7,11 +7,6 @@ fields:
   config:
     required: false
   label: Title
-- name: include_social
-  type: include
-  config: {}
-  template: social
-  label: Include Social
 - name: references
   type: blocks
   label: References
