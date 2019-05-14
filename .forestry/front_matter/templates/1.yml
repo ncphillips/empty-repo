@@ -2,3 +2,5 @@
 label: '1'
 hide_body: false
 fields: []
+pages:
+- _posts/test.md
