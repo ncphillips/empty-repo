@@ -8,5 +8,5 @@ fields:
     required: false
   label: Title
 pages:
-- _stuff/test.md
 - _stuff/test-1.md
+- _stuff/test.md
