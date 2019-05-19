@@ -8,4 +8,5 @@ fields:
     required: false
   label: test
 pages:
+- site/content/asdfghj.md
 - site/content/test.md
