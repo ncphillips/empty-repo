@@ -17,7 +17,7 @@ fields:
       type: documents
       section: 
       file: posts/people.yml
-      path: 
+      path: people
   label: Author
 pages:
 - posts/asdff.md
