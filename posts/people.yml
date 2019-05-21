@@ -6,3 +6,8 @@ people:
 - id: james
   name: James O
   bio: Sells socks on the side
+mish_mash:
+  - test
+  - id: example
+    name: toot
+  - 12345
