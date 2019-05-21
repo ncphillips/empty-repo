@@ -28,9 +28,9 @@ fields:
     required: false
     options: []
     source:
-      type: simple
+      type: documents
       section: 
-      file: 
+      file: posts/people.yml
       path: 
   label: Words from List
 pages:
