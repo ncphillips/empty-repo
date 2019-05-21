@@ -21,6 +21,18 @@ fields:
       option_id: id
       option_label: name
   label: Author
+- name: words_from_list
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Words from List
 pages:
 - posts/asdff.md
 - posts/red.md
