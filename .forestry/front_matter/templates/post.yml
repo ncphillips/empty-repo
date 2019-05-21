@@ -18,6 +18,8 @@ fields:
       section: 
       file: posts/people.yml
       path: people
+      option_id: id
+      option_label: name
   label: Author
 pages:
 - posts/asdff.md
