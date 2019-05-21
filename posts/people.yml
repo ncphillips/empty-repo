@@ -1,4 +1,16 @@
 ---
+colors_hash:
+  red: 
+    hex: #444
+    rgb: whatever
+word_hash:
+ a: Really cool
+ b: Not cool
+ c: Anti cool
+word_list:
+- peanut
+- light
+- delux
 people:
 - id: nolan
   name: Nolan P
