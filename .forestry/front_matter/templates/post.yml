@@ -8,5 +8,6 @@ fields:
     required: false
   label: Title
 pages:
-- posts/asdff.md
+- posts/test.md
+- posts/asdf.md
 - posts/example.md
