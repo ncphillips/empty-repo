@@ -19,7 +19,7 @@ fields:
 - name: date
   type: datetime
   label: Duplicate Date
-  description: 'duplicate'
+  description: duplicate
   config:
     required: false
     date_format: 
