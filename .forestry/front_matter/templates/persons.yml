@@ -1,4 +1,23 @@
 ---
 label: Persons
 hide_body: true
-fields: []
+fields:
+- name: persons
+  type: field_group_list
+  fields:
+  - name: id
+    type: text
+    config:
+      required: false
+    label: ID
+    description: Do not change this after it's been set
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  config:
+    min: 
+    max: 
+    labelField: name
+  label: Persons
