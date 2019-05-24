@@ -1,4 +1,15 @@
 ---
 label: Person
 hide_body: true
-fields: []
+fields:
+- name: id
+  type: text
+  config:
+    required: false
+  label: ID
+  description: This should not be changed
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
