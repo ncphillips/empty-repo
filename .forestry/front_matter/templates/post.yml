@@ -19,7 +19,7 @@ fields:
     Hello world "what is up?" said the goat
   config:
     required: false
-    wysiwyg: false
+    wysiwyg: true
     schema:
       format: markdown
   label: Description
