@@ -40,17 +40,8 @@ fields:
     max: 
     labelField: 
   label: Content
-- name: author
-  type: select
-  default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: documents
-      section: ''
-      file: data/people.yml
-      path: people
-      option_id: id
-      option_label: name
-  label: Author
+- name: test
+  type: include
+  config: {}
+  template: post
+  label: Test
