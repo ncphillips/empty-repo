@@ -9,7 +9,14 @@ fields:
   label: Title
 - name: description
   type: textarea
-  default: Test <a href="test">link</a>
+  default: |-
+    Test <a href="test">link</a>
+
+    This is more text.
+
+    <div> This is very long</div>
+
+    Hello world "what is up?" said the goat
   config:
     required: false
     wysiwyg: false
