@@ -23,3 +23,20 @@ fields:
     schema:
       format: markdown
   label: Description
+- name: content
+  type: field_group_list
+  fields:
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: text
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Content
