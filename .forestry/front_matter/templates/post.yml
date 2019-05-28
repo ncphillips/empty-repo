@@ -40,3 +40,18 @@ fields:
     max: 
     labelField: 
   label: Content
+- name: test
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - one
+    - two
+    - three
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Test
