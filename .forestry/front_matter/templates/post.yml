@@ -40,8 +40,3 @@ fields:
     max: 
     labelField: 
   label: Content
-- name: test
-  type: include
-  config: {}
-  template: post
-  label: Test
