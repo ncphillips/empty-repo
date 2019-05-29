@@ -26,6 +26,21 @@ fields:
 - name: show_banner_image
   type: boolean
   label: Show Banner Image?
+- name: banner_style
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - None
+    - Normal
+    - Wide
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Banner Style
 - name: banner_image
   type: file
   config:
