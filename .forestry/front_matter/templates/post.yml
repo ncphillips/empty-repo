@@ -47,7 +47,7 @@ fields:
     maxSize: 250
   label: Banner Image
   showOnly:
-    value: true
-    field: show_banner_image
+    field: banner_style
+    value: Normal
 pages:
 - posts/hello-banana.md
