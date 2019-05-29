@@ -33,3 +33,4 @@ fields:
   label: Banner Image
   showOnly:
     value: true
+    field: show_banner_image
