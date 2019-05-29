@@ -34,3 +34,5 @@ fields:
   showOnly:
     value: true
     field: show_banner_image
+pages:
+- posts/hello-banana.md
