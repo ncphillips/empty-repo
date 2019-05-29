@@ -32,5 +32,4 @@ fields:
     maxSize: 250
   label: Banner Image
   showOnly:
-    field: show_banner_image
     value: true
