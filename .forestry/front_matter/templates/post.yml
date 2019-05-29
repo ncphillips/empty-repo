@@ -23,35 +23,11 @@ fields:
     schema:
       format: markdown
   label: Description
-- name: content
-  type: field_group_list
-  fields:
-  - name: text
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: markdown
-    label: text
+- name: show_banner_image_
+  type: boolean
+  label: Show Banner Image?
+- name: banner_image
+  type: file
   config:
-    min: 
-    max: 
-    labelField: 
-  label: Content
-- name: test
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - one
-    - two
-    - three
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Test
+    maxSize: 250
+  label: Banner Image
