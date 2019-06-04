@@ -1,0 +1,32 @@
+
+{{< code  >}}
+**Important**: Switch to Raw Editor to edit the snippet content. Syntax highlighting are available for 'java', 'javascript', 'python', 'ruby', 'php'...
+**Warning**: Forestry's WYSIWYG editor's code block is incompatible with this Tabbed Code Block. Use ```language syntax in Raw Editor instead
+**Warning**: Forestry may have re-format the triple tick ``` as \`\`\`. Correct such occurrence before proceed.
+```java
+public class Fibonacci {
+    public static void main(String[] args) {
+        int index = 40;
+        System.out.println(fibonacci(index));
+    }
+public static int fibonacci(int n)  {
+    if(n == 0)
+        return 0;
+    else if(n == 1)
+        return 1;
+   else
+        return fibonacci(n - 1) + fibonacci(n - 2);
+    }
+}
+```
+```python
+def fib(n):
+    if n == 1:
+        return 1
+    elif n == 0:
+        return 0
+    else:
+        return fib(n-1) + fib(n-2)
+print fib(37)
+```
+{{< /code  >}}
