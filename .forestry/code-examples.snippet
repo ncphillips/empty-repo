@@ -1,0 +1,23 @@
+### Examples
+
+```typescript
+import api from "some-api"
+
+async function logIt() {
+  let data = await api.loadData()
+  
+  console.log("Data", data)
+}
+```
+
+```ruby
+require "some-api"
+
+class SomeApiLogger
+  def log_it
+    data = some_api.loadData
+    
+    puts "Data: #{data}"
+  end
+end
+```
