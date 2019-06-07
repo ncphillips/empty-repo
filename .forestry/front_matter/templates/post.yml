@@ -12,5 +12,11 @@ fields:
   config:
     maxSize: 250
   label: Banner
+  showOnly:
+    field: show_banner
+    value: true
+- name: show_banner
+  type: boolean
+  label: Show Banner
 pages:
 - content/posts/hello-demo.md
