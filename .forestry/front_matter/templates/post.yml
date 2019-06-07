@@ -7,9 +7,6 @@ fields:
   config:
     required: false
   label: Title
-- name: show_banner
-  type: boolean
-  label: Show Banner
 - name: banner
   type: file
   config:
