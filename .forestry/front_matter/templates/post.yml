@@ -12,3 +12,5 @@ fields:
   config:
     maxSize: 250
   label: Banner
+pages:
+- content/posts/hello-demo.md
