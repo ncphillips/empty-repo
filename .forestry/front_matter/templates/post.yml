@@ -27,6 +27,15 @@ fields:
     config:
       required: false
     label: Name
+  - name: sources
+    type: blocks
+    label: Sources
+    template_types:
+    - source-application
+    - source-security
+    config:
+      min: 
+      max: 
   label: Sources
 pages:
 - content/posts/hello-demo.md
