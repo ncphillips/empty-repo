@@ -18,5 +18,15 @@ fields:
 - name: show_banner
   type: boolean
   label: Show Banner
+- name: sources
+  type: field_group
+  config: {}
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  label: Sources
 pages:
 - content/posts/hello-demo.md
