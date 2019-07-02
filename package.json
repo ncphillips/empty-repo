@@ -4,7 +4,7 @@
   "description": "This repo is empty.",
   "main": "index.js",
   "scripts": {
-    "instant-preview": "vuepress dev . -p 8080 -h 0.0.0.0",
+    "instant-preview": "vuepress dev . -p 8080 --host 0.0.0.0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
