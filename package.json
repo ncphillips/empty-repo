@@ -1,0 +1,23 @@
+{
+  "name": "empty-repo",
+  "version": "1.0.0",
+  "description": "This repo is empty.",
+  "main": "index.js",
+  "scripts": {
+    "instant-preview": "vuepress dev -p 8080 -h 0.0.0.0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncphillips/empty-repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ncphillips/empty-repo/issues"
+  },
+  "homepage": "https://github.com/ncphillips/empty-repo#readme",
+  "dependencies": {
+    "vuepress": "^1.0.2"
+  }
+}
