@@ -7,7 +7,6 @@ sections:
 - type: document
   path: README.md
   label: Home
-  match: "**/*"
 - type: directory
   path: _stuff
   label: stuff

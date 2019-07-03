@@ -3,16 +3,16 @@ label: Test
 hide_body: false
 display_field: some_random_thing
 fields:
-- name: title
-  type: text
-  config:
-    required: false
-  label: Title
 - name: some_random_thing
   type: text
   config:
     required: false
   label: Some Random Thing
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
 pages:
 - _stuff/test.md
 - _stuff/test-1.md
